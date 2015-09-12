@@ -1,0 +1,4 @@
+id,name,gender,age
+<% @users.each do |user| %>
+<%= [user.id, user.name, user.human_gender, user.age].join(',') %>
+<% end %>

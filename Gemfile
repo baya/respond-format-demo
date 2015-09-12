@@ -42,3 +42,5 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'prawn'
+gem 'prawn-table'
