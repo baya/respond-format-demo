@@ -1,0 +1,1 @@
+json.users @users, :id, :name, :human_gender, :age

@@ -10,6 +10,8 @@ class UsersController < ApplicationController
       # 将响应头的 Content-Disposition 设置为 attachment
       # 这样浏览器会主动下载 PDF 文档
       format.pdf {response.headers['Content-Disposition'] = 'attachment'}
+      format.json
+      format.xml
     end
   end
   
